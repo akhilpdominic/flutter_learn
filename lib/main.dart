@@ -4,14 +4,46 @@ void main() {
   runApp(const MyApp());
 }
 
-void test()
+/*void test()
 {
-  //List<String?>? names=["foo","bar",null];
+  List<String?>? names=["foo","bar",null];
   //names=null;
 
-  const String? firstname="lop";
-  const String? middlename="Akhil";
-  const String? lastname="Akhil";
+  /*String? name;
+  name ??= null;
+  print(name);*/
+
+
+
+}*/
+
+
+enum personppt
+{
+  firstname,lastname,age
+}
+
+
+class person
+{
+  String a="aa";
+  void breathe()
+  {
+   print("breathing");
+  }
+
+}
+
+class Person
+{
+  final String name;
+  Person(this.name);
+  
+}
+void test(){
+  /*Person p=new Person("Akhil");
+  print(p.name); */ 
+
 
 }
 
